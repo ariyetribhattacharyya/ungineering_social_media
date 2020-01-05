@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    color: indianred;
+}
+#head{
+    width: 100%;
+    height: 150px;
+}
+#box{
+    width: 46%;
+    height: 700px;
+    float: left;
+    margin: 0px 27% 0px 27%; 
+    border: solid 1px #DFDCDA;
+}
+#att{
+    width: 100%;
+    height: 115px;
+    border-bottom: solid 1px #DFDCDA;
+}
+.atta{
+    width: 50%;
+    height:100%;
+    float: left;
+    text-align: center;
+}
+#eu{
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+    font-size: 35px;
+    color: #111111;
+    text-decoration: bold; 
+}
+#eu2{
+    text-align: center;
+    margin: -25px 0px 0px -132px;
+    font-size: 35px;
+    color: #111111;
+    text-decoration: bold;
+}
+#nu{
+    text-align: center;
+    margin: 35px 0px 20px 0px;
+    font-size: 35px;
+    
+}
+#info{
+    width:100%;
+    height: 600px;
+    background-color: #F4F4F4;
+    padding: 40px 0px 50px 0px;
+}
+#log{
+    text-align: left
+    color: #111;
+    font-size: 30px;
+    margin: 0px 0px 0px 100px;
+    font-weight: bold; 
+    color: #111;
+    font-family: courier;
+    line-height: 45px; 
+}
+#email{
+    font-size: 28px;
+    margin: 45px 0px 0px 100px;
+    color: black;
+    font-family: ;
+   
+}
+#txt{
+    height: 200px;
+    margin: 10px 0px 0px 100px;
+}
+#pass{
+    font-size: 28px;
+    margin: -100px 0px 0px 100px;
+    color: black;
+    font-family: 
+}
+#ps{
+    height: 200px;
+    margin: 10px 0px 0px 100px;
+}
