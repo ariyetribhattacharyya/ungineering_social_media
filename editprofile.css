@@ -1,58 +1,70 @@
 * {
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+input[type="submit"]{
+    color: white;
+    background-color:rgb(240,76,77);
+    width: 25%;
+    margin-left:25%;
+    height:35px;
+    
 }
 div.a {
     height: 170px;
-    border-bottom: solid 1px rgb(43,41,42);
+    width:1200px;
+    margin: auto;
+    
 }
 div.a1 {
     float: left;
     width: 30%;
-    height: 100%;
-    border: solid 2px black;
+    margin-top: 60px;
+    
 }
 div.a2 {
     float: left;
     width: 70%;
-    height: 100%;
-    
+    height: 100%;    
 }
 div.a21 {
-    float: right;
-    
+    float: right;   
     
     border: solid 1px red;
     color: rgb(240,76,77);
     margin-top:82px;
-    margin-right:94.5px;
+    margin-right: 115px;
     margin-left: 35px;
     padding: 0px 35px 4px 35px;
     font-size: 19px;
-    font-family: sans-serif;
+    
 }
 div.a22 {
     float: right;
-    width: 30%;
+    margin-right: 10px;
     height: 100%;    
     padding: 85px 0px 0px 128px;
     color: rgb(48,48,48);
     font-weight: bold;
     font-size: 19px;
-    font-family: sans-serif;    
+       
 }
 
-div.un {
-    float: left;
-    border-bottom: solid 3px rgb(48,48,48); 
-}
+
 div.un2{
     float: left;
+    border: solid 2px rgb(48,48,48);
+    width: 44px;
 }
   
    
 div.b {
     height: 650px;
-    
+    margin: auto;
+    width: 1200px;
 }
 div.c {
     float: left;
@@ -65,15 +77,15 @@ div.d {
     height: 100%;
     
     background-color: rgb(248,248,248);
-    padding-top:35px;
+    padding-top:43px;
 }
 div.c1 {
     font-size:20px;
-    margin-top: 42px;
+    margin-top: 55px;
     margin-right:84px;
     margin-left:120px;
-    margin-bottom:52px;
-    font-family: sans-serif;
+    margin-bottom:40px;
+    
     color: rgb(255,76,77);
     text-decoration: underline;
 }
@@ -83,11 +95,11 @@ div.c2 {
     color: black;
     margin-right:42px;
     margin-left: 120px;
-    font-family: sans-serif;
+    
 }
 div.un3 {
     display: inline-block;
-    border-bottom: solid 3px rgb(48,48,48); 
+     
 }
 div.un4 {
     display: inline-block;
@@ -100,89 +112,98 @@ div.d1,div.d2,div.d3,div.d4,div.d5 {
 }
 
 div.d11{
-    font-family: sans-serif;
+    
     font-size: 19px;
-    margin-left:145px;
-    margin-bottom:10px; 
+    margin-left:25%;
+    margin-bottom:8px; 
     
 } 
 div.d12 {
-    margin-left:145px;
-    width: 315px;
+    margin-left:25%;
+    width: 50%;
     border: solid 2px rgb(240,76,77);
 }    
 div.d21 {
-    font-family: sans-serif;
+    
     font-size: 19px;
-    margin-left:145px;
-    margin-bottom:10px; 
+    margin-left:25%;
+    margin-bottom:8px; 
     
 }    
 div.d22 {
-    margin-left:145px;
-    width: 315px;
+    margin-left:25%;
+    width: 50%;
     border: solid 2px rgb(240,76,77);
     margin-bottom:10px;
 }
     
 div.d31 {
-    font-family: sans-serif;
+    
     font-size: 19px;
-    margin-left:145px;
-    margin-bottom:10px;
+    margin-left:25%;
+    margin-bottom:8px;
     
 }
     
 div.d32 {
-    margin-left:145px;
-    width: 315px;
+    margin-left:25%;
+    width: 50%;
     margin-bottom:10px;
     border: solid 2px rgb(240,76,77);
 }
     
 div.d41 {
-    font-family: sans-serif;
+    
     font-size: 19px;
-    margin-left:145px;
-    margin-bottom:10px;
+    margin-left:25%;
+    margin-bottom:8px;
     
 }
     
 div.d42 {
-    margin-left:145px;
-    width: 315px;
+    margin-left:25%;
+    width: 50%;
     margin-bottom:10px;
     border: solid 2px rgb(240,76,77);
     
 }    
 div.d51 {
     
-    font-family: sans-serif;
+    
     font-size: 19px;
-    margin-left:145px;
-    margin-bottom:10px;
+    margin-left:25%;
+    margin-bottom:8px;
     
 }
 div.d52 {    
-    margin-left:145px;
-    width: 315px;
+    margin-left:25%;
+    width: 50%;
     margin-bottom:10px;
     border: solid 2px rgb(240,76,77);
 }
-div.d61 {
-    background-color: rgb(240,76,77);
-    color: white;
-    margin-left:145px;
-    margin-right:410px;
-    font-size:19px;
-    font-family: sans-serif;
-    padding-left:36px;
-    padding-right:40px;
-    margin-top: 10px;
-    height: 35px;
-    padding-top: 6px;
-    
+
+div.z1 {
+    float: left;
 }
+div.z2 {
+    float: left;
+}  
+div.z21 {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 9px;
+}
+   
+div.z22 {
+    font-weight: bold;
+    font-size: 8px;
+}       
+div.line {
+    position: relative;
+    border-bottom: solid 1px rgb(42,41,43);
+    top: 170px;
+    
+}    
 
        
     
