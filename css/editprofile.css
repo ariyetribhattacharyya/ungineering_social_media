@@ -14,7 +14,7 @@ input[type="submit"]{
     
 }
 div.a {
-    height: 170px;
+    height: 155px;
     width:1200px;
     margin: auto;
     
@@ -22,7 +22,8 @@ div.a {
 div.a1 {
     float: left;
     width: 30%;
-    margin-top: 60px;
+    margin-top: 51px;
+    padding-left: 63px;
     
 }
 div.a2 {
@@ -35,18 +36,16 @@ div.a21 {
     
     border: solid 1px red;
     color: rgb(240,76,77);
-    margin-top:82px;
-    margin-right: 115px;
+    margin-top:74px;
+    margin-right: 103px;
     margin-left: 35px;
-    padding: 0px 35px 4px 35px;
+    padding: 4px 35px 4px 35px;
     font-size: 19px;
     
 }
 div.a22 {
     float: right;
-    margin-right: 10px;
-    height: 100%;    
-    padding: 85px 0px 0px 128px;
+    margin-top:79px;
     color: rgb(48,48,48);
     font-weight: bold;
     font-size: 19px;
@@ -68,7 +67,7 @@ div.b {
 }
 div.c {
     float: left;
-    width: 22%;
+    width: 24%;
     
 }
 div.d {
@@ -81,10 +80,10 @@ div.d {
 }
 div.c1 {
     font-size:20px;
-    margin-top: 55px;
-    margin-right:84px;
-    margin-left:120px;
-    margin-bottom:40px;
+    margin-top: 57px;
+    
+    margin-left:112px;
+    margin-bottom:45px;
     
     color: rgb(255,76,77);
     text-decoration: underline;
@@ -93,8 +92,8 @@ div.c2 {
     font-weight: bold;
     font-size:20px;
     color: black;
-    margin-right:42px;
-    margin-left: 120px;
+    
+    margin-left: 112px;
     
 }
 div.un3 {
@@ -201,16 +200,15 @@ div.z22 {
 div.line {
     position: relative;
     border-bottom: solid 1px rgb(42,41,43);
-    top: 170px;
+    top: 155px;
     
 }    
+div.footer {
+    width:1200px;
+    margin: auto;
+    border: solid 1px black;
+    background-color: #373737;
+}
 
-       
-    
-        
-    
-         
-            
-    
-        
-        
+
+
