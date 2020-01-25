@@ -1,14 +1,62 @@
 *{
     box-sizing: border-box;
-    color: indianred;
+    margin: 0px;
+    font-family:"Open Sans",sans-serif;
 }
 #head{
     width: 100%;
-    height: 150px;
+    height: 200px;
+}
+#hzero{
+    height:200px;
+    width: 25%;
+    margin: 0px 0px 0px 725px;
+}
+#h2{
+    height: 100%;
+    width: 10%;
+    float: left;
+    margin: 0px 0px 0px 0px;
+}
+#ung{    
+    margin: 70px 0px 0px 50px;
+}
+#h3{
+    height: 100%;
+    width: 90%;
+    float: left;
+    color: #373737;
+    margin: -200px 0px 0px 120px;
+}
+#h3a{
+    color: #373737;
+    font-weight: bold;
+    margin: 100px 0px 0px 0px;
+    font-size: 40px; 
+}
+#h3aa{
+    color:#F04C4D;
+    float: left;
+}
+#h3b{
+      font-size: 15px;
+      line-height: 15px
+}
+.h3ba{
+    color: #373737;
+    
+    float: left; 
+}
+.h3bb{
+    color:#F04C4D;
+    float: left;
+    margin: 0px 2px 0px 2px;
+  
+    
 }
 #box{
     width: 46%;
-    height: 700px;
+    height: 900px;
     float: left;
     margin: 0px 27% 0px 27%; 
     border: solid 1px #DFDCDA;
@@ -26,45 +74,50 @@
 }
 #eu{
     text-align: center;
-    margin: 30px 0px 0px 0px;
-    font-size: 35px;
+    margin: 40px 0px 0px 0px;
+    font-size: 30px;
     color: #111111;
-    text-decoration: bold; 
+    font-weight: bold; 
+    
 }
 #eu2{
     text-align: center;
-    margin: -25px 0px 0px -132px;
-    font-size: 35px;
+    margin: -25px 0px 0px -115px;
+    font-size: 30px;
     color: #111111;
-    text-decoration: bold;
+    font-weight: bold;
+}
+#nu > a{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    color:  #F04C4D;
+    
 }
 #nu{
-    text-align: center;
-    margin: 35px 0px 20px 0px;
-    font-size: 35px;
-    
+    margin: 40px 0px 20px 0px;
 }
 #info{
     width:100%;
-    height: 600px;
+    height: 800px;
     background-color: #F4F4F4;
     padding: 40px 0px 50px 0px;
+    border: solid 1px #DFDCDA;
 }
 #log{
-    text-align: left
+    text-align: left;
     color: #111;
-    font-size: 30px;
-    margin: 0px 0px 0px 100px;
+    margin: 0px 0px 0px 135px;
     font-weight: bold; 
-    color: #111;
-    font-family: courier;
-    line-height: 45px; 
+    color: #373737;
+    font-size: 35px;
+    line-height: 55px; 
 }
 #email{
     font-size: 28px;
-    margin: 45px 0px 0px 100px;
-    color: black;
-    font-family: ;
+    margin: 45px 10% 0px 16%;
+    color: #373737;
+    font-weight: bold;
    
 }
 #txt{
@@ -73,11 +126,81 @@
 }
 #pass{
     font-size: 28px;
-    margin: -100px 0px 0px 100px;
-    color: black;
-    font-family: 
+    margin: -100px 10% 0px 16%;
+    color: #373737;
+    font-weight: bold;
 }
 #ps{
     height: 200px;
     margin: 10px 0px 0px 100px;
+}
+input{
+    width: 75%;
+    height: 65px;
+    border-color: #F04C4D;
+    font-size: 30px;
+    color: #111;
+    margin: 0% 10% 0% 5%;
+}
+a{
+    text-decoration: none;
+    color:#111111;
+}
+#tag a{
+     color: #F04C4D;
+}
+#tag{
+    font-size: 25px;
+    margin: -20px 0px 0px 138px;
+    color: #F04C4D;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#foot{
+    border: solid 1px #111;
+    width: 100%;
+    height: 200px;
+    float: left;
+    background-color: #373737;
+    border: none;
+    padding: none;
+    margin:0px;
+}
+.foot1{
+    height: 100%;
+    width: 50%; 
+    float: left;   
+}
+#f1{
+    color: #ffffff;
+    margin: 7% 0px 0px 10%;
+    float: left;
+}
+#f2{
+    color: #ffffff;
+    margin: 7% 0px 30px 50%;
+    font-size: 20px;
+    line-height: 0px; 
+}
+#f3 a{
+    color: #ffffff;
+}
+#f3{
+    color: #ffffff;
+    margin: 0px 0px 0px 54%;
+    font-size: 25px;
+    line-height: 0px; 
+}
+#yt{
+    margin: 10% 0px 0px 10%;
+}
+#fb{
+    float: left;
+    margin: -3.2% 0px 0px 13.5%;
+}
+#sub{
+    background-color: #F04C4D;
+    color: white;
+    margin: -100px 0px 0px 138px ;
+    width: 67%;
 }
