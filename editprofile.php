@@ -29,8 +29,7 @@
     <body>
         
         <div class="line"></div>
-        <div class="a">
-            
+        <div class="a">            
             <div class="a1">
                 <div class="z1"><img src="/social_media/img/a.png" alt=" " height=60px /></div>
                 <div class="z2">
